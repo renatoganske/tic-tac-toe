@@ -1,5 +1,5 @@
-import { useField } from "@unform/core";
 import React, { InputHTMLAttributes, useEffect, useRef } from "react";
+import { useField } from "@unform/core";
 import { IconBaseProps } from "react-icons";
 import { Container } from "./style";
 
@@ -28,4 +28,5 @@ const Input = ({ name, icon: Icon, ...rest }: IInputProps) => {
     </Container>
   );
 };
+
 export default Input;

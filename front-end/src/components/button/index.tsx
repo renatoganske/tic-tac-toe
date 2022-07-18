@@ -1,5 +1,5 @@
 import React, { ButtonHTMLAttributes } from "react";
-import { Container } from "./style";
+import { Container } from "./styles";
 
 interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   buttonType: "submit" | "reset" | "button";
